@@ -1,0 +1,26 @@
+[package]
+name = "javascript_runner"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.25"
+tokio = { version = "1.22.0", features = ["full"] }
+tokio-util = "0.7.4"
+chrono = "0.4"
+egui = "0.19"
+epi = "0.17"
+eframe = "0.19.0"
+serde = "1"
+serde_derive = "1"
+serde_json = "1.0.87"
+v8 = "0.58.0"
+syntect = "5.0.0"
+
+[features]
+default = ["wgpu"]
+
+glow = ["eframe/glow"]
+wgpu = ["eframe/wgpu"]
