@@ -1,4 +1,4 @@
-Javascript code runner.
+Javascript code executor.
 
 
 ![Screenshot](https://github.com/dmitryvm1/JavascriptRunner/blob/master/screenshot.png?raw=true)
